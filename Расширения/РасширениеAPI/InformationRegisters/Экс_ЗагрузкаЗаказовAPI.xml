@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="056e1d52-a668-4226-9404-794c36b532cb">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.Экс_ЗагрузкаЗаказовAPI" category="Record">
+				<xr:TypeId>313fe819-a60b-49d5-bb94-1b27cbe38a68</xr:TypeId>
+				<xr:ValueId>79f2b625-6fc4-4905-aecd-7af90d8a9945</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.Экс_ЗагрузкаЗаказовAPI" category="Manager">
+				<xr:TypeId>c6d0dc1b-cee2-4599-8929-fac8cd8c8460</xr:TypeId>
+				<xr:ValueId>a95051cb-ee94-4718-b879-931492e9bed5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.Экс_ЗагрузкаЗаказовAPI" category="Selection">
+				<xr:TypeId>92776875-e2b1-4328-9c5e-af472fb0811c</xr:TypeId>
+				<xr:ValueId>a26957d5-f9ec-4499-97cb-c58c69684974</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.Экс_ЗагрузкаЗаказовAPI" category="List">
+				<xr:TypeId>db35364e-1c90-4d3b-8a41-ce9e7c55f2aa</xr:TypeId>
+				<xr:ValueId>48daa0b2-43b2-495c-8512-ac5aa368f53b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.Экс_ЗагрузкаЗаказовAPI" category="RecordSet">
+				<xr:TypeId>79538c5f-7daa-498c-abc2-93d032c02edf</xr:TypeId>
+				<xr:ValueId>cb78c255-1d7a-4dbd-9883-7b617a88f4ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.Экс_ЗагрузкаЗаказовAPI" category="RecordKey">
+				<xr:TypeId>7d092539-aeb5-4ccb-a0d4-8653c2523e1f</xr:TypeId>
+				<xr:ValueId>edbb49ac-ff80-4db6-9e62-b485457c6f12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.Экс_ЗагрузкаЗаказовAPI" category="RecordManager">
+				<xr:TypeId>55de004b-4a65-4268-9c9d-f06b14d602c8</xr:TypeId>
+				<xr:ValueId>4927008a-d205-4092-a4c4-8b821085ad28</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Экс_ЗагрузкаЗаказовAPI</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8662f95d-137f-4852-873a-2bfd00099af2">
+				<Properties>
+					<Name>Успешно</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c2936eca-6880-4b6a-a5a0-148658dc2972">
+				<Properties>
+					<Name>Результат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e55d9cd7-4596-40f3-853c-3e948239a753">
+				<Properties>
+					<Name>Обработано</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="1929e178-9a60-43a0-9073-00a0e0357bcc">
+				<Properties>
+					<Name>Сайт</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="554d9be5-a05e-41f3-ba15-c581f69aaa05">
+				<Properties>
+					<Name>НомерЗаказа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6c7b7a99-5399-4460-a2c3-332629184eb4">
+				<Properties>
+					<Name>ДатаВремя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

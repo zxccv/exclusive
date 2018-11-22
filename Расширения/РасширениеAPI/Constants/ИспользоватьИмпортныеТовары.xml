@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="cac76800-9b9c-4c15-9fb4-797bc7bef3b5">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьИмпортныеТовары" category="Manager">
+				<xr:TypeId>194e257f-4b1b-4b87-852f-8f1d3c139835</xr:TypeId>
+				<xr:ValueId>859588f7-6fb2-4fac-8537-252c12196d76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьИмпортныеТовары" category="ValueManager">
+				<xr:TypeId>c9c3f7ef-ca3a-4bc6-83d0-478563bef0a5</xr:TypeId>
+				<xr:ValueId>b8832057-7575-43d3-9ff9-c55fe2b2dcce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьИмпортныеТовары" category="ValueKey">
+				<xr:TypeId>bf561620-3e90-51d0-85cb-0019a4584a45</xr:TypeId>
+				<xr:ValueId>ea73cec5-c4b6-5bc0-8e4a-771889c27e2d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьИмпортныеТовары</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
