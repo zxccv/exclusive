@@ -1,0 +1,22 @@
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TS3.Domain.Models.Client.ClientSoapService.SetToMove"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		elementFormDefault="qualified"
+		targetNamespace="http://schemas.datacontract.org/2004/07/TS3.Domain.Models.Client.ClientSoapService.SetToMove">
+	<xs:complexType name="params">
+		<xs:sequence>
+			<xs:element minOccurs="0"
+					name="date"
+					type="xs:dateTime"/>
+			<xs:element minOccurs="0"
+					name="number"
+					nillable="true"
+					type="xs:string"/>
+			<xs:element minOccurs="0"
+					name="warehouse"
+					type="xs:int"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="params"
+			nillable="true"
+			type="tns:params"/>
+</xs:schema>

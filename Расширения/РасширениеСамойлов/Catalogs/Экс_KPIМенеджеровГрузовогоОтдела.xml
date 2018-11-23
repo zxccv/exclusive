@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="e262c201-90c0-4a51-a3ea-4d56e7d7c6dd">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Экс_KPIМенеджеровГрузовогоОтдела" category="Object">
+				<xr:TypeId>f8ff11e7-72d2-4c58-897f-743b7d680f3c</xr:TypeId>
+				<xr:ValueId>92b90c94-6557-4c84-a039-6f64d3921678</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Экс_KPIМенеджеровГрузовогоОтдела" category="Ref">
+				<xr:TypeId>68b98cd9-e18b-4ded-be51-6e2d846354c5</xr:TypeId>
+				<xr:ValueId>e89fe43f-7c2e-43e2-b6a4-33413280131f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Экс_KPIМенеджеровГрузовогоОтдела" category="Selection">
+				<xr:TypeId>f62b9972-b3ac-4614-a8e4-970854a220bc</xr:TypeId>
+				<xr:ValueId>51e03d47-3010-41f5-946c-fd8eed05a1a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Экс_KPIМенеджеровГрузовогоОтдела" category="List">
+				<xr:TypeId>7a65dc14-663c-4c26-ab07-6457b5283119</xr:TypeId>
+				<xr:ValueId>0267db34-de69-4067-a95d-007c53130275</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Экс_KPIМенеджеровГрузовогоОтдела" category="Manager">
+				<xr:TypeId>32cf7d90-6c71-4a52-97ef-fb96aec0300b</xr:TypeId>
+				<xr:ValueId>1f9e0938-affd-4cd9-ba9b-d8e242d02d25</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Экс_KPIМенеджеровГрузовогоОтдела</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="27264e0a-94a0-4629-b66b-04a9df8e5862">
+				<Properties>
+					<Name>ФактЗадаётсяВручную</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f8b7e503-0323-402b-b7b1-ebb3598fd4c5">
+				<Properties>
+					<Name>ДаНет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="d5b63713-4a9e-4603-bf14-8df469dd8cf7">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Экс_KPIМенеджеровГрузовогоОтдела.Параметры" category="TabularSection">
+						<xr:TypeId>d04d792f-e787-4c30-a55b-aafe5b12b057</xr:TypeId>
+						<xr:ValueId>087427d7-4fe5-4bfb-a51e-da622ebfa60f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Экс_KPIМенеджеровГрузовогоОтдела.Параметры" category="TabularSectionRow">
+						<xr:TypeId>4c3f633b-4546-421b-96ad-da70eb320ba9</xr:TypeId>
+						<xr:ValueId>946abe29-4278-43b5-aa61-98121d3fa4e8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Параметры</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3bc3910f-c5a5-4084-a861-ee3e103f064b">
+						<Properties>
+							<Name>Параметр</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e9415dd4-85f9-410f-86ea-e2d69b17b54f">
+						<Properties>
+							<Name>ТипПараметра</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

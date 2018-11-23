@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="1e1a9a4f-60ce-48b5-b33a-5981036c48c1">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьСборкуРазборку" category="Manager">
+				<xr:TypeId>ea002242-cc7f-40d3-8181-ee27f74eded4</xr:TypeId>
+				<xr:ValueId>4db06038-7ab4-4412-9d00-94e662b4c321</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьСборкуРазборку" category="ValueManager">
+				<xr:TypeId>d202ba26-8026-41f7-a02c-5c88d42b67f0</xr:TypeId>
+				<xr:ValueId>4b8c8585-2d2d-4efb-b7b1-83052a29447a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьСборкуРазборку" category="ValueKey">
+				<xr:TypeId>814810fd-9cf8-5ea8-837d-c30d33c83cc1</xr:TypeId>
+				<xr:ValueId>d58da353-7ea6-5575-b1df-b07a0e0924b5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьСборкуРазборку</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>
