@@ -18,6 +18,18 @@
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
+	<ChildItems>
+		<Button name="Удолить" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Удолить</CommandName>
+			<ExtendedTooltip name="УдолитьРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<InputField name="Номенклатура" id="3">
+			<DataPath>НоменклатураРеквизит</DataPath>
+			<ContextMenu name="НоменклатураКонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="5"/>
+		</InputField>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -83,7 +95,35 @@
 				<v8:Type>cfg:CatalogRef.ИдентификаторыОбъектовМетаданных</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="НоменклатураРеквизит" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Удолить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удолить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удолить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Удолить</Action>
+		</Command>
+	</Commands>
 	<Parameters>
 		<Parameter name="ОбъектыНазначения">
 			<Type/>
